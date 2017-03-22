@@ -11,28 +11,28 @@ Renju text viewer displays renju board in ASCII text format.
 Run: 
 `./ren_viewer --string hhhghjifijigggghjeiiihgjkf`
 
-Output:
-      A B C D E F G H I J K L M N O 
-    A + --------------------------+ A 
-    B | . . . . . . . . . . . . . | B 
-    C | . . . . . . . . . . . . . | C 
-    D | . . * . . . . . . . * . . | D 
-    E | . . . . . . . . x . . . . | E 
-    F | . . . . . . . o . x . . . | F 
-    G | . . . . . x o o . . . . . | G 
-    H | . . . . . o x x . . . . . | H 
-    I | . . . . . . . o . . . . . | I 
-    J | . . . . . o x x . . . . . | J 
-    K | . . . . . . . . . . . . . | K 
-    L | . . * . . . . . . . * . . | L 
-    M | . . . . . . . . . . . . . | M 
-    N | . . . . . . . . . . . . . | N 
-    O + --------------------------+ O 
-      A B C D E F G H I J K L M N O 
+Output:  
+`__A B C D E F G H I J K L M N O  `  
+`A + --------------------------+ A`  
+`B | . . . . . . . . . . . . . | B`  
+`C | . . . . . . . . . . . . . | C`  
+`D | . . * . . . . . . . * . . | D`  
+`E | . . . . . . . . x . . . . | E`  
+`F | . . . . . . . o . x . . . | F`  
+`G | . . . . . x o o . . . . . | G`  
+`H | . . . . . o x x . . . . . | H`  
+`I | . . . . . . . o . . . . . | I`  
+`J | . . . . . o x x . . . . . | J`  
+`K | . . . . . . . . . . . . . | K`  
+`L | . . * . . . . . . . * . . | L`  
+`M | . . . . . . . . . . . . . | M`  
+`N | . . . . . . . . . . . . . | N`  
+`O + --------------------------+ O`  
+`__A B C D E F G H I J K L M N O`  
 
-Note:
-  x: black stone
-  o: white stone
+Note:  
+  x: black stone  
+  o: white stone  
 
 ## Requirements
 * git lfs 1.5.6 or newer
