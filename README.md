@@ -1,7 +1,7 @@
 # Renju Text Viewer
 Renju text viewer displays renju board in ASCII text format.
 
-# Supported format
+# Support format
 * [a-o] style text
 
 # Usage
