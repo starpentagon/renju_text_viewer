@@ -12,7 +12,7 @@ Run:
 `./ren_viewer --string hhhghjifijigggghjeiiihgjkf`
 
 Output:  
-`  A B C D E F G H I J K L M N O  `  
+`__A B C D E F G H I J K L M N O  `  
 `A + --------------------------+ A`  
 `B | . . . . . . . . . . . . . | B`  
 `C | . . . . . . . . . . . . . | C`  
@@ -28,7 +28,7 @@ Output:
 `M | . . . . . . . . . . . . . | M`  
 `N | . . . . . . . . . . . . . | N`  
 `O + --------------------------+ O`  
-`  A B C D E F G H I J K L M N O`  
+`__A B C D E F G H I J K L M N O`  
 
 Note:  
   x: black stone  
