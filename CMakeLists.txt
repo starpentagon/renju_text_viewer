@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.5.1)
 
 # プロジェクト名
-set(project_name ren_viewer)
+set(project_name renju_viewer)
 project(${project_name} CXX)
 
 # ccache
@@ -23,9 +23,9 @@ link_directories($ENV{BOOST_DIR}/lib)
 # ソースファイル
 add_executable(
     ${project_name}
-    ../realcore/src/MoveList.cc
-    ../realcore/src/Board.cc
-    ../src/ren_viewer.cc
+    ./realcore/src/MoveList.cc
+    ./realcore/src/Board.cc
+    ./src/ren_viewer.cc
 )
 
 # ライブラリ

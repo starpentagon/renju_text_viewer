@@ -19,7 +19,7 @@ if [ ${build_result} -eq 0 ]; then
   fi
 
   mkdir bin
-  cp ./build/ren_viewer bin
+  cp ./build/renju_viewer bin
 fi
 
 
