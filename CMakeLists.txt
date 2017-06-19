@@ -23,8 +23,12 @@ link_directories($ENV{BOOST_DIR}/lib)
 # ソースファイル
 add_executable(
     ${project_name}
+    ../realcore/src/Move.cc
     ../realcore/src/MoveList.cc
-    ../realcore/src/Board.cc
+    ../realcore/src/LineNeighborhood.cc
+    ../realcore/src/OpenState.cc
+    ../realcore/src/BoardOpenState.cc
+    ../realcore/src/BitBoard.cc
     ../src/ren_viewer.cc
 )
 

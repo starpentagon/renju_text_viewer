@@ -41,6 +41,6 @@ int main(int argc, char* argv[])
     return 1;
   }
 
-  Board board(move_list);
-  cout << board.str() << endl;
+  BitBoard bit_board(move_list);
+  cout << bit_board.str() << endl;
 }
